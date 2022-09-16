@@ -1,0 +1,574 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1194px;
+}
+
+.secondary {
+    padding-top: 14px;
+    padding-bottom: 9px;
+    
+}
+
+.logotip {
+    height: 23px;
+}
+
+.logo {
+    width: 100%;
+    height: 45px;
+}
+
+.headlines {
+    font-size: 14px;            
+}  
+
+.headlines:hover {
+    color: #0db0e5;
+    text-decoration: underline;
+}
+
+.font {
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+.hat {
+    padding-left: 17px;
+    
+}
+
+.picture {
+    background-image: url(./img/Background.jpg);
+    position: relative;
+    width: 100%; 
+    height: 635px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.picture::before {
+    content: "";
+    display: block;
+    background: url(img/dot.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    opacity: 0.6;
+} 
+
+
+.nahalo {
+    position: absolute;
+}
+
+.header {
+    font-size: 45px;
+    margin-bottom: 7px;
+    letter-spacing: -0.004em;
+}
+
+.titular {
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+    padding-top: 193px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.butblue {
+    width: 150px;
+    height: 47px;
+    margin-right: 26px;
+    border-radius: 0;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.butwhite {
+    width: 150px;
+    height: 47px;
+    color: white;
+    border-color: white;
+    border-radius: 0;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.headline {
+    font-size: 35px;
+    line-height: 176%;
+    padding-top: 31px;
+}
+
+.liness {
+    width:20px;
+    border:1px solid white;
+    margin-left: 20px;
+    opacity: 1;
+}
+
+.linesss {
+    width:40px;
+    border:1px solid #0db0e5;
+    opacity: 1;
+}
+
+.lines {
+    padding-top: 181px;
+}
+
+.bespectacled {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white {
+
+    height: 500px;
+}
+
+.text {
+    font-size: 15px;
+    line-height: 27px;
+    padding-bottom: 22px;
+        
+}
+
+.video {
+    padding-left: 34px;
+}
+
+.videoo {
+    padding-top: 2px;
+}
+
+.blue {
+    padding-bottom: 65px;
+    background: #0db0e5 url(https://sport.mail.ru/img/_main/subnav.png);
+    
+}
+
+.head {
+    font-size: 35px;
+    padding-top: 79px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.title {
+    font-size: 22px;
+    color: white;
+    padding-left: 25px;
+    margin-top: 9px;
+}
+
+.column {
+    padding-left: 27px;
+}
+
+.columnn {
+    padding-left: 38px;
+    margin-top: -4px;
+}
+
+.infa {
+    padding-top: 10px;
+    color: white;
+    margin-left: -4px;
+}
+
+.infaa {
+    padding-top: 17px;
+    color: white;
+}
+
+.inf {
+    color: white;
+    padding-top: 2px;
+}
+
+.headd {
+    font-size: 35px;
+    padding-top: 72px;
+    padding-bottom: 17px;
+    
+}
+
+.five {
+    padding-bottom: 70px;
+    background-color:#ebeff0;
+
+}
+
+.headdd {
+    font-size: 35px;
+    padding-top: 86px;
+    padding-bottom: 13px;
+    text-align: center;
+}
+
+.headddd {
+    font-size: 35px;
+    padding-top: 82px;
+    padding-bottom: 13px;
+    text-align: center;
+}
+
+.shift {
+    padding-top: 36px;
+}
+
+.indent {
+    padding: 41px 43px 56px 51px;
+}
+
+.seven {
+    background: #0db0e5 url(https://sport.mail.ru/img/_main/subnav.png);
+
+}
+
+.subtitlee {
+    font-size: 24px;
+    color: white;
+    padding-top: 30px;
+    
+}
+
+.amount {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 12px;
+    
+}
+
+.number {
+    
+    padding: 0 11px; 
+    font-size: 77px;
+    color: #0db0e5;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    
+}
+
+.number::before {
+    display: block;
+    content: "";
+    background: url(./img/Top.png);
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: -3px;
+    z-index: -1;
+        
+}
+
+.number::after {
+    display: block;
+    content: "";
+    background: url(./img/Bottom.png);
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 57px;
+    left: -3px;
+    z-index: -1;
+}
+
+.eight {
+    padding-bottom: 80px;
+    background-color:#ebeff0;
+
+}
+.colortext {
+    color: #0db0e5;
+}
+
+.nav {
+    padding-top: 29px;
+    padding-bottom: 11px;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+.nav-link:hover  {
+    text-decoration: underline;
+    
+}
+
+.photo {
+    position: relative;
+}
+
+.photo:hover::before {
+    position: absolute;
+    content: "";
+    display: block;
+    background: rgba(3, 3, 3, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.photo:hover .phototo {
+    position: absolute;
+    content: "";
+    display: block;
+    background: rgba(3, 3, 3, 0.7);
+    top: 40%;
+    left: 40%;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #0db0e5;
+    background-image: url(./img/Hover.png);
+	background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nalink {
+    color: #0dafe5;
+    text-decoration: none;
+    
+}
+
+.ime {
+    font-size: 16px;
+}
+
+.fatty {
+    font-size: 19px;
+    padding-bottom: 55px;
+ 
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    border: 2px solid #464343;
+    padding: 4px 11px;
+    margin-right: 7px;
+}
+
+.square:hover  {
+    border: 2px solid #0db0e5;
+    
+}
+
+.wrapper {
+    padding-top: 78px;
+    padding-bottom: 37px;
+}
+
+.name {
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+.doctors {
+    line-height: 27px;
+}
+
+.ten {
+    background-color:#ebeff0;
+}
+
+.inputt {
+    background: repeating-linear-gradient( -45deg, #0dafe5, #0dafe5 10px, #999 12px, #999 11px);
+    color: white;
+    display: inline-block;
+    padding: 42px;
+}
+
+.heddd {
+    font-size: 35px;
+    padding-top: 86px;
+    padding-bottom: 63px;
+    text-align: center;
+}
+
+.introduction,
+.what {
+    display: inline-block;
+    width: 100%;
+}
+
+.introduction {
+    background: transparent;
+    border: none;
+    color: inherit;
+    border-bottom: 1px solid white;
+    outline: none;
+    padding-top: 5px;
+}
+
+.what {
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+
+.what:focus + .introduction {
+    transform: translateY(-40px);
+    
+    
+}
+
+.introduction:not(:placeholder-shown) + .what {
+    transform: translateY(-50px);
+    
+}
+
+.otherr {
+    transform: translateY(-131px);
+}
+
+.other {
+    height: 133px;
+}
+
+.other:not(:placeholder-shown) + .otherr {
+    transform: translateY(-150px);
+}
+
+.introduction:focus + .what {
+    transform: translateY(-50px);
+}
+
+.other:focus + .otherr {
+    transform: translateY(-150px);
+}
+
+
+.press {
+    background-color:white;
+    border: none;
+    color: black;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    width: 160px;
+	height: 50px;
+    font-size: 14px;
+}
+
+.press:hover {
+    background-color: #0d6efd;
+}
+
+.karta {
+    padding-bottom: 92px;
+    padding-left: 23px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    padding-bottom: 52px
+}
+
+.round {
+    background-color: white;
+    border-radius: 50%;
+    padding: 13px;
+    border: 2px solid #c1b8b8;
+}
+
+.roundd {
+    background-color: #0db0e5;
+    border-radius: 50%;
+    padding: 13px;
+}
+
+.compartment {
+    width: 200px;
+}
+.compartmentt {
+    width: 245px;
+}
+
+.indents {
+    padding-top: 26px;
+    margin-bottom: -38px;
+}
+.shiftt {
+    margin-left: -14px;
+    padding-right: 2px;
+}
+
+.map {
+    
+    margin-left: 70px;
+    
+}
+
+.location {
+    width: 100%;
+    height: 319px;
+}
+
+.black {
+    background-color: black;
+}
+
+.centerr {
+    padding-top: 19px;
+    padding-bottom: 2px;
+}
+
+.remove {
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    background: repeating-linear-gradient( -45deg, #0dafe5, #0dafe5 10px, #999 12px, #999 11px);
+}
+
+@media (max-width: 992px) {
+	.shiftt {
+		padding-top: 40px;
+        padding-left: 0;
+        margin-left: -35px;
+
+	}
+
+    .colum {
+        padding-left: 27px;
+    }
+}
+
+@media (max-width: 720px) {
+	.numbers {
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+    .compartment, 
+    .compartmentt {
+        padding-top: 40px;
+    }
+}
+
+
+
